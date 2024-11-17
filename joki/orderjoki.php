@@ -526,7 +526,7 @@
         onSuccess: function(result){
             /* You may add your own implementation here */
             alert("payment success!"); console.log(result);
-            window.location.href = `http://localhost/projekimktopup2/updateDatabase/update.php?token=${token}&type=joki`;
+            window.location.href = `https://559e-182-253-126-28.ngrok-free.app/projekimktopup2/updateDatabase/update.php?token=${token}&type=joki`;
 
         },
         onPending: function(result){
